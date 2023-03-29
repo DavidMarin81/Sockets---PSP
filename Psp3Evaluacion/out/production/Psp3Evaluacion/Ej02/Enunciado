@@ -1,0 +1,6 @@
+Realiza un programa servidor TCP que acepte 3 clientes.
+Para cada cliente, mostrar sus puertos local y remoto.
+
+- Se deberá implementar también el programa cliente que se conecte a dicho servidor.
+- Mostrar los puertos locales y remotos a los que está conectado su socket.
+- Mostrar la dirección IP de la máquina remota a la que se conecta.
