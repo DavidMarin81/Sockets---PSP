@@ -1,0 +1,14 @@
+Crea un programa cliente usando sockets UDP que envie el texto
+escrito desde la entrada estandar al servidor. El servidor le
+devolverá la cadena en mayusculas.
+El proceso de entrada de datos finalizará cuando el cliente
+introduzca un asterisco.
+Crea un programa servidor que reciba cadenas de caracteres,
+las muestre en pantalla y se las envie al emisor en mayusculas.
+El proceso servidor finalizará cuando reciba un asterisco.
+
+Establece un tiempo de espera de 5000 ms con el metodo
+setSoTimeout para hacer que el metodo receive() del programa
+cliente se bloquee. Pasado ese timepo, controlar si no se reciben
+datos lanzando la excepcion InterruptedIOException, en cuyo caso
+visualiza un mensaje indicando que el paquete se ha perdido.
